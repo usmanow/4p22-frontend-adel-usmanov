@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #333b41;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+table {
+  color: white;
+  margin-left: 7px;
+  margin-bottom: 7px;
+  border: 0;
+  table-layout: fixed;
+  empty-cells: hide;
+}
+
+table th, table td {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-weight: normal;
+  border: 1px solid rgb(82, 80, 80);
+}
+
+table th {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.element {
+  font-size: 7px;
+  padding : 9px;
+  min-width: 49px;
+  max-width: 49px;
+}
+
+.element span {
+  font-size: 9px;
+  width: 100%;
+  display: block;
+  line-height: 1em;
+}
+
+.element .number {
+  line-height: 0.7em;
+  text-align: right;
+}
+
+.element .symbol {
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.element .name {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.element .mass {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.color1 {
+  color: rgb(45, 238, 27);
+}
+
+.color2 {
+  color: rgb(118, 225, 252);
+}
+
+.color3 {
+  color: rgb(241, 89, 89);
+}
+
+.color4 {
+  color: rgb(247, 199, 110);
+}
+
+.color5 {
+  color:rgb(161, 132, 1);
+}
+
+.color6 {
+  color:rgb(240, 243, 89);
+}
+
+.color7 {
+  color: rgb(158, 148, 147);
+}
+
+.color8 {
+  color:rgb(226, 146, 132);
+}
+
+.color9 {
+  color:rgb(228, 177, 230);
+}
+
+.color10 {
+  color:rgb(209, 86, 143);
+}

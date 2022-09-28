@@ -1,116 +1,14 @@
 body {
-  width: 100%;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: #333B41;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-  font-size: 30px;
-  text-align: center;
-  color: #fff;
+ul {
+    font-size: 30px;
+    list-style: inside;
 }
 
-
-table {
-  color: white;
-  margin: 2em;
-  border: 0;
-  empty-cells: hide;
-}
-
-table th {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  vertical-align: middle;
-  font-size: 17px;
-  height: 10px;
-  opacity : 0.8;
-}
-
-table th, table td {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  font-weight: normal;
-  border: 1px solid rgb(82, 80, 80);
-  border-collapse: collapse;
-}
-
-.element {
-  font-size: 13px;
-  padding : 10px;
-  min-width: 68px;
-  max-width: 68px;
-}
-
-.element span {
-  font-size: 12px;
-  width: 100%;
-  display: block;
-  line-height: 1em;
-  opacity: 0.7;
-}
-
-.element .number {
-  line-height: 0.7em;
-  text-align: right;
-}
-
-.element .symbol {
-  font-weight: 600;
-  font-size: 2.17em;
-  opacity: 1;
-  text-align: center;
-}
-
-.element .name {
-  padding-top: 5px;
-  text-align: right;
-}
-
-.element .mass {
-  padding-top: 5px;
-  text-align: right;
-}
-
-.color1 {
-  color: rgb(45, 238, 27);
-}
-
-.color2 {
-  color: rgb(118, 225, 252);
-}
-
-.color3 {
-  color: rgb(241, 89, 89);
-}
-
-.color4 {
-  color: rgb(247, 199, 110);
-}
-
-.color5 {
-  color:rgb(161, 132, 1);
-}
-
-.color6 {
-  color:rgb(240, 243, 89);
-}
-
-.color7 {
-  color: rgb(158, 148, 147)
-}
-
-.color8 {
-  color:rgb(226, 146, 132)
-}
-
-.color9 {
-  color:rgb(228, 177, 230)
-}
-
-.color10 {
-  color:rgb(209, 86, 143)
+li {
+    padding: 0.3em;
+    line-height: 2;
+    border-bottom: 1px solid grey;
 }
