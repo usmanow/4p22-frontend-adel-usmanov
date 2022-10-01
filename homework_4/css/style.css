@@ -3,11 +3,10 @@
 }
 
 body {
-    width: auto;
     margin: 0;
     padding: 0;
     font-family: "Bebas Neue", sans-serif;
-    background-color: #154743;
+    background: #154743;
 }
 
 main {
@@ -15,36 +14,41 @@ main {
 }
 
 .block {
-    background-color: black;
+    background: black;
     height: 30px;
     border-top: 1px solid rgba(255, 0, 0, 0.76);
     border-bottom: 1px solid rgba(255, 0, 0, 0.76);
 }
 
-.top_logo {
-    height: 100px;
+.flex {
     display: flex;
+    height: 100px;
 }
 
-.contents {
+.header {
     display: flex;
     justify-content: center;
-}
-
-p {
-    margin: 0;
+    align-items: center;
     font-size: 30px;
     color: white;
+    width: 100%;
+    margin-right: 310px;
+}
+
+.logo {
+    padding: 0 20px;
+}
+
+.logo2 {
+    padding-top: 25px;
 }
 
 .logo img {
-    margin-left: 20px;
     width: 100px;
     height: 100px;
 }
 
 .logo2 img {
-    margin: 25px 0 0 20px;
     width: 170px;
     height: 50px;
 }
@@ -57,6 +61,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 25px;
+    justify-content: center;
 }
 
 .container {
@@ -117,7 +122,6 @@ h3 {
 }
 
 footer {
-    height: 100px;
     background: black;
     margin-top: 25px;
     border-top: 1px solid rgba(255, 0, 0, 0.76);
