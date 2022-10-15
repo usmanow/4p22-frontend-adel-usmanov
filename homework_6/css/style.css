@@ -27,6 +27,7 @@ main {
     max-width: 2560px;
     margin: 0 auto;
     position: relative;
+    display: flex;
 }
 
 .section-header {
