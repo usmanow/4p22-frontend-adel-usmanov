@@ -214,8 +214,8 @@ body {
         display: flex;
         position: absolute;
         left: calc(45 / 768 * 100vw);
-        top: calc(101 / 768 * 100vw);
-        width: calc(510 / 768 * 100vw);
+        top: calc(127 / 768 * 100vw);
+        width: calc(638 / 768 * 100vw);
         height: calc(49 / 768 * 100vw);
         border-radius: calc(10 / 768 * 100vw);
         border: calc(2 / 768 * 100vw) solid #787878;
@@ -225,9 +225,9 @@ body {
     .form__password {
         display: flex;
         position: absolute;
-        top: calc(187 / 768 * 100vw);
+        top: calc(209 / 768 * 100vw);
         left: calc(45 / 768 * 100vw);
-        width: calc(510 / 768 * 100vw);
+        width: calc(638 / 768 * 100vw);
         height: calc(49 / 768 * 100vw);
         border-radius: calc(10 / 768 * 100vw);
         border: calc(2 / 768 * 100vw) solid #787878;
