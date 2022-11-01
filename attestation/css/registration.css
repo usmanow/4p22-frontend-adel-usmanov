@@ -121,7 +121,7 @@
         padding-left: calc(15 / 1440 * 100vw);
         font-weight: 700;
         font-size: calc(28 / 1440 * 100vw);
-        border: calc(3 / 1440 * 100vw) solid #787878;
+        border: 2px solid #787878;
         color: #787878;
         outline: none;
     }
@@ -186,7 +186,7 @@
     .container__form-radio_woman input {
         width: calc(20 / 1440 * 100vw);
         height: calc(20 / 1440 * 100vw);
-        border: calc(3 / 1440 * 100vw) solid #787878;
+        border: 2px solid #787878;
         visibility: hidden;
     }
 
@@ -209,7 +209,7 @@
         width: calc(12 / 1440 * 100vw);
         height: calc(12 / 1440 * 100vw);
         padding: calc(2 / 1440 * 100vw);
-        border: calc(3 / 1440 * 100vw) solid #787878;
+        border: 2px solid #787878;
         border-radius: 50%;
         background-clip: content-box;
     }
@@ -229,7 +229,7 @@
         width: calc(12 / 1440 * 100vw);
         height: calc(12 / 1440 * 100vw);
         padding: calc(2 / 1440 * 100vw);
-        border: calc(3 / 1440 * 100vw) solid #787878;
+        border: 2px solid #787878;
         border-radius: 50%;
         background-clip: content-box;
     }
@@ -261,7 +261,7 @@
         font-weight: 700;
         width: calc(510 / 1440 * 100vw);
         height: calc(246 / 1440 * 100vw);
-        border: calc(3 / 1440 * 100vw) solid #787878;
+        border: 2px solid #787878;
         outline: none;
         resize: none;
         color: #787878;
@@ -289,7 +289,7 @@
     .container__form-checkbox input {
         width: calc(24 / 1440 * 100vw);
         height: calc(24 / 1440 * 100vw);
-        border: calc(3 / 1440 * 100vw) solid #787878;
+        border: 2px solid #787878;
         visibility: hidden;
     }
 
@@ -312,7 +312,7 @@
         width: calc(12 / 1440 * 100vw);
         height: calc(12 / 1440 * 100vw);
         padding: calc(4 / 1440 * 100vw);
-        border: calc(3 / 1440 * 100vw) solid #787878;
+        border: 2px solid #787878;
         background-clip: content-box;
     }
 
@@ -454,7 +454,7 @@
         padding: calc(15 / 768 * 100vw);
         font-weight: 700;
         font-size: calc(28 / 768 * 100vw);
-        border: calc(3 / 768 * 100vw) solid #787878;
+        border: 2px solid #787878;
         color: #787878;
         outline: none;
     }
@@ -519,7 +519,7 @@
     .container__form-radio_woman input {
         width: calc(20 / 768 * 100vw);
         height: calc(20 / 768 * 100vw);
-        border: calc(3 / 768 * 100vw) solid #787878;
+        border: 2px solid #787878;
         visibility: hidden;
     }
 
@@ -542,7 +542,7 @@
         width: calc(12 / 768 * 100vw);
         height: calc(12 / 768 * 100vw);
         padding: calc(2 / 768 * 100vw);
-        border: calc(3 / 768 * 100vw) solid #787878;
+        border: 2px solid #787878;
         border-radius: 50%;
         background-clip: content-box;
     }
@@ -562,7 +562,7 @@
         width: calc(12 / 768 * 100vw);
         height: calc(12 / 768 * 100vw);
         padding: calc(2 / 768 * 100vw);
-        border: calc(3 / 768 * 100vw) solid #787878;
+        border: 2px solid #787878;
         border-radius: 50%;
         background-clip: content-box;
     }
@@ -594,7 +594,7 @@
         font-weight: 700;
         width: calc(510 / 768 * 100vw);
         height: calc(246 / 768 * 100vw);
-        border: calc(3 / 768 * 100vw) solid #787878;
+        border: 2px solid #787878;
         outline: none;
         resize: none;
     }
@@ -621,7 +621,7 @@
     .container__form-checkbox input {
         width: calc(24 / 768 * 100vw);
         height: calc(24 / 768 * 100vw);
-        border: calc(3 / 768 * 100vw) solid #787878;
+        border: 2px solid #787878;
         visibility: hidden;
     }
 
@@ -644,7 +644,7 @@
         width: calc(12 / 768 * 100vw);
         height: calc(12 / 768 * 100vw);
         padding: calc(4 / 768 * 100vw);
-        border: calc(3 / 768 * 100vw) solid #787878;
+        border: 2px solid #787878;
         background-clip: content-box;
     }
 
