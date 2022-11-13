@@ -33,18 +33,15 @@ button.addEventListener ('click', event => {
         }
         case "+": {
             result = Number(firstNumber) + Number(secondNumber);
-            console.log(result);
-            return (output.innerText = `Результат: ${result}`);
+            break;
         }
         case "-": {
             result = Number(firstNumber) - Number(secondNumber);
-            console.log(result);
-            return (output.innerText = `Результат: ${result}`);
+            break;
         }
         case "*": {
             result = Number(firstNumber) * Number(secondNumber);
-            console.log(result);
-            return (output.innerText = `Результат: ${result}`);
+            break;
         }
         case "/": {
             if (Number(secondNumber) === 0) {
@@ -52,12 +49,19 @@ button.addEventListener ('click', event => {
                 return (output.innerText = "На 0 делить нельзя");
             }
             result = Number(firstNumber) / Number(secondNumber);
-            console.log(result);
-            return (output.innerText = `Результат: ${result}`);
+            break;
         }
         default: {
             console.log("Программа не поддерживает такую операцию");
             return (output.innerText = "Программа не поддерживает такую операцию");
         }
     }
-})
+    
+    if (isNaN(result) || result === Infinity) {
+        console.log("Операция некорректна");
+        return (output.innerText = "Операция некорректна");
+    } else {
+        console.log(result);
+        return (output.innerText = `Результат: ${result}`);
+    }
+});
