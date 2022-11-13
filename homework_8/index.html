@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__title">Калькулятор</div>
+        <form action="#">
+            <div class="container__form-first">
+                <input id="first-number" name="first-number" placeholder="Введите первое число" autocomplete="off">
+                <label for="first-number">Первое число</label>
+            </div>
+            <div class="container__form-second">
+                <input id="operation" name="operaton" placeholder="Введите знак операции" autocomplete="off">
+                <label for="operation">Знак операции</label>
+            </div>
+            <div class="container__form-third">
+                <input id="second-number" name="second-number" placeholder="Введите второе число" autocomplete="off">
+                <label for="second-number">Введите второе число</label>
+            </div>
+            <button class="container__form-button" id="submit">Рассчитать</button>
+        </form>
+        <div class="container__result" id="output"></div>
+        <script src="./script/script.js"></script>
+    </div>
+</body>
+</html>
