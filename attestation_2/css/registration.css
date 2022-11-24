@@ -149,26 +149,8 @@
         color: #787878;
     }
 
-    .container__form-error__email {
-        position: absolute;
-        top: calc(-21 / 1440 * 100vw);
-        right: 0;
-        font-family: 'Roboto', sans-serif;
-        font-size: calc(16 / 1440 * 100vw);
-        font-weight: 700;
-        color: #EE2424;
-    }
-
-    .container__form-error__password {
-        position: absolute;
-        top: calc(-21 / 1440 * 100vw);
-        right: 0;
-        font-family: 'Roboto', sans-serif;
-        font-size: calc(16 / 1440 * 100vw);
-        font-weight: 700;
-        color: #EE2424;
-    }
-
+    .container__form-error__email,
+    .container__form-error__password, 
     .container__form-error__confirm {
         position: absolute;
         top: calc(-21 / 1440 * 100vw);
