@@ -494,6 +494,18 @@
         color: #787878;
     }
 
+    .container__form-error__email,
+    .container__form-error__password, 
+    .container__form-error__confirm {
+        position: absolute;
+        top: calc(-21 / 768 * 100vw);
+        right: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: calc(16 / 768 * 100vw);
+        font-weight: 700;
+        color: #EE2424;
+    }
+
     .container__form-email input:focus::-webkit-input-placeholder {
         transition: 0.3s;
         color: transparent;
